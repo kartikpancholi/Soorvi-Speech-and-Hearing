@@ -1,0 +1,91 @@
+body{
+	position: relative;
+}
+
+#navbar{
+	background-color: black;
+}
+
+#noBorder{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#noBorder:focus{
+    border-color: #2cee71;
+}
+
+#noBorder:hover{
+    border-color: black;
+    box-shadow: none;
+    transition: 1s;
+}
+
+#contactButton{
+    border-radius: 0px;
+    width: 150px;
+}
+
+#contactButton:hover{
+    background-color: black;
+    color: white;
+}
+
+#socialIcons{
+    height: 10vh;
+    opacity: 0.9;
+}
+
+#socialIcons:hover{
+    opacity: 1;
+}
+
+.nav-item a{
+	color: #2cee71;
+}
+
+.nav-item:hover a{
+	color: white;
+}
+
+.heading{
+	font-family: 'Cinzel', Sans-serif;
+	font-size: 60px;
+	color: white;
+	padding-top: 12%;
+}
+
+.contentHeading{
+	font-family: 'Cinzel', Sans-serif;
+	color: black;	
+}
+
+.splash-screen{
+	background: linear-gradient(rgba(20,20,20, .5), rgba(20,20,20, .5)), url(images/babyear.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+.cardfocus:hover{
+    font-size: 16.5px;
+}
+
+.cardhover:hover{
+    color: white;
+    background-color: rgb(27, 27, 27);
+    transition: 0.2s ease-in-out;
+}
+
+.glyphicon{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #26C6F4;
+}
+
+.service-title{
+    font-size: x-large;
+}
+
